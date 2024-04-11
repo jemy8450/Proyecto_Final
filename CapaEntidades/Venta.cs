@@ -12,9 +12,9 @@ namespace CapaEntidades
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int VentasId { get; set; }
+        public int VentaId { get; set; }
         [Required]
-        public DateTime Fecha { get; set; }
+        public DateTime FechaVenta { get; set; }
         [Required]
         public decimal Total { get; set; }
 
